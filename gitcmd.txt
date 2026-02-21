@@ -1,0 +1,45 @@
+git init
+Initialized empty Git repository in F:/varshagit2/.git/
+PS F:\varshagit2> git add .           
+PS F:\varshagit2> git commit -m "Deployment process through git"
+[master (root-commit) 65f186f] Deployment process through git
+ 1 file changed, 12 insertions(+)
+ create mode 100644 index.html
+PS F:\varshagit2> git branch -M main
+PS F:\varshagit2> git remote add origin https://github.com/Richa1720/git2repo.git 
+PS F:\varshagit2> git remote -v
+origin  https://github.com/Richa1720/git2repo.git (fetch)
+origin  https://github.com/Richa1720/git2repo.git (push)
+PS F:\varshagit2> git push -u origin main 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 410 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Richa1720/git2repo.git
+PS F:\varshagit2> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 410 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Richa1720/git2repo.git
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 410 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Richa1720/git2repo.git
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 410 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Richa1720/git2repo.git
+Writing objects: 100% (3/3), 410 bytes | 102.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Richa1720/git2repo.git
+To https://github.com/Richa1720/git2repo.git
+ * [new branch]      main -> main
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS F:\varshagit2>
